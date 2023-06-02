@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "preact/hooks";
-import { LineChartDynamic } from "https://raw.githubusercontent.com/atmelino/d3no-data/livechart/charts.ts"
-// import { LineChartDynamic } from "../../../../../../../d3no-data/charts.ts";
+import { LineChartDynamic } from "https://raw.githubusercontent.com/atmelino/d3no-chart/main/charts.ts"
 
 export default function MyLineChart() {
   const timems = useRef(Date.now());
